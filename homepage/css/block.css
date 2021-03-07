@@ -1,0 +1,65 @@
+
+.wp-block-columns {
+	text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+	text-align: center;
+	font-size: 40px;
+}
+
+
+.title:after {
+	width: 45px;
+    margin: 28px auto;
+    border: none;
+    border-top: 2px solid #343a40;
+}
+
+.companyInfo dl{
+
+
+	width: 830px;
+    overflow: hidden;
+    border-bottom: 1px solid #000;
+    margin: 0 auto 1em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    font-size: 90%;
+}
+
+.companyInfo dt {
+    width: 243px;
+    float: left;
+    padding-left: 0.5em;
+    line-height: 1.6;
+}
+
+
+.companyInfo dd {
+    width: 560px;
+    float: right;
+    line-height: 1.6;
+}
+
+
+
+@media screen and (max-width: 1024px){
+.companyInfo dl {
+    width: 80%;
+    margin: 0 auto;
+	}
+}
+
+
+@media screen and (max-width: 1024px){
+	.companyInfo dt, .companyInfo dd {
+	    width: 100%;
+	    float: none;
+	}
+}
